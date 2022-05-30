@@ -1,0 +1,69 @@
+body {
+  background-color: yellow;
+}
+
+.left #leftwhite {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+.left #leftblue {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: blue;
+  top: 50%;
+  left: 50%;
+  margin: -35px 0px 0px -35px;
+}
+.left #leftblack {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0px 0px -25px;
+}
+
+.right #rightwhite {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+.right #rightblue {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: blue;
+  top: 50%;
+  left: 50%;
+  margin: -35px 0px 0px -35px;
+}
+.right #rightblack {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0px 0px -25px;
+}
+
+/*# sourceMappingURL=style.css.map */

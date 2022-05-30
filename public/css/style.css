@@ -1,3 +1,210 @@
+.bobEsponja {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  height: 300px;
+  background-color: yellow;
+}
 
+.face {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-s;
+}
+.face .smile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 red;
+  position: fixed;
+  transform: rotate(37deg);
+  margin-top: 90px;
+}
+.face .teeth {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin-top: 110px;
+}
+.face .thooth1, .face .thooth2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  background: white;
+}
+.face .thooth2 {
+  margin-left: 10px;
+}
+
+.face,
+.trousers,
+.tshirt {
+  max-width: 100%;
+  height: 300px;
+  border-width: 3px;
+  border-style: solid;
+  position: relative;
+}
+
+.eyes,
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.left #leftwhite {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+.left #leftblue {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: blue;
+}
+.left #leftblack {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+}
+
+.right #rightwhite {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+.right #rightblue {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: blue;
+}
+.right #rightblack {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+}
+
+.tshirt {
+  width: 100%;
+  height: 40%;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.tshirt .tshirt1 {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid white;
+  border-left: 100px solid transparent;
+}
+.tshirt .tshirt2 {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
+.tshirt .tshirt3 {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid white;
+  border-right: 100px solid transparent;
+}
+.tshirt .tshirt4 {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid #f0ad4e;
+  border-bottom: 50px solid #f0ad4e;
+}
+
+.trousers {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  background-color: brown;
+  position: relative;
+}
+.trousers .line1,
+.trousers .line2,
+.trousers .line3,
+.trousers .line4 {
+  width: 15%;
+  height: 25%;
+  background-color: black;
+}
+
+.eyelash {
+  display: flex;
+  position: relative;
+}
+.eyelash .eyelash1 {
+  margin-top: 0%;
+  margin-bottom: 100px;
+  padding-top: 0%;
+  width: 10px;
+  height: 20px;
+  background: black;
+  position: relative;
+  transform: rotate(45deg);
+}
+.eyelash .eyelash2 {
+  margin-top: 0%;
+  margin-bottom: 100px;
+  padding-top: 0%;
+  width: 10px;
+  height: 20px;
+  background: black;
+  position: relative;
+  transform: rotate(180deg);
+}
+.eyelash .eyelash3 {
+  margin-top: 0%;
+  margin-bottom: 100px;
+  padding-top: 0%;
+  width: 10px;
+  height: 20px;
+  background: black;
+  position: relative;
+  transform: rotate(15deg);
+}
 
 /*# sourceMappingURL=style.css.map */
